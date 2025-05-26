@@ -1,9 +1,8 @@
-package com.example.today;
+package util;
 
 import org.springframework.stereotype.Component;
 
 @Component
-
 public class ItalianChef implements Chef {
 
     @Override
