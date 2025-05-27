@@ -23,6 +23,13 @@ public class DemoController {
 
     }
 
+    @GetMapping("/abcd")
+    public String cName() {
+
+        return myChef.getChefName();
+
+    }
+
     private Chef myChef;
 
     //Constructor

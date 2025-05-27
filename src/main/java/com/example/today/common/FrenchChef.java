@@ -15,5 +15,10 @@ public class FrenchChef implements Chef {
         return "Nume Restaurant Francez";
     }
 
+    @Override
+    public String getChefName() {
+        return "bla bal bla en franacais ";
+    }
+
 
 }

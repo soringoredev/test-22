@@ -15,4 +15,9 @@ public class MexicanChef implements Chef {
     public String arataNumeleRestaurantului() {
         return "Nume Restaurant Mexican";
     }
+
+    @Override
+    public String getChefName() {
+        return "";
+    }
 }

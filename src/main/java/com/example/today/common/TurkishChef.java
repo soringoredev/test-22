@@ -16,4 +16,9 @@ public class TurkishChef implements Chef {
         return "Nume Restaurant Turcesc";
     }
 
+    @Override
+    public String getChefName() {
+        return "Ibrahim";
+    }
+
 }

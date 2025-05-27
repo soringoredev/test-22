@@ -8,4 +8,6 @@ public interface Chef {
 
     String arataNumeleRestaurantului();
 
+    String getChefName();
+
 }

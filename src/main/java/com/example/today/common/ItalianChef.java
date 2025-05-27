@@ -18,4 +18,9 @@ public class ItalianChef implements Chef {
         return "Nume Restaurant Italian";
     }
 
+    @Override
+    public String getChefName() {
+        return "";
+    }
+
 }

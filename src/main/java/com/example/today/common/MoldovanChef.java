@@ -13,4 +13,9 @@ public class MoldovanChef implements Chef {
     public String arataNumeleRestaurantului() {
         return "Nume Restaurant Moldovenesc";
     }
+
+    @Override
+    public String getChefName() {
+        return "Alexandru Comerzan";
+    }
 }
