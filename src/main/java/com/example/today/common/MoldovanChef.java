@@ -1,18 +1,16 @@
 package com.example.today.common;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
-public class MexicanChef implements Chef {
+public class MoldovanChef implements Chef {
     @Override
     public String getDailyRecipe() {
-        return "Prepara tacos al pastor con pina, cilangtro y salsa ...";
+        return "Reteta moldoveneasca a zilei.";
     }
 
     @Override
     public String arataNumeleRestaurantului() {
-        return "Nume Restaurant Mexican";
+        return "Nume Restaurant Moldovenesc";
     }
 }

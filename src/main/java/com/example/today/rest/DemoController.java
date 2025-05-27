@@ -2,6 +2,7 @@ package com.example.today.rest;
 
 import com.example.today.common.Chef;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,13 +13,21 @@ public class DemoController {
     public String dailyRecipe() {
 
         return myChef.getDailyRecipe();
+
+    }
+
+    @GetMapping("/restname")
+    public String restName() {
+
+        return myChef.arataNumeleRestaurantului();
+
     }
 
     private Chef myChef;
 
     //Constructor
     @Autowired
-    public DemoController(Chef theChef) {
+    public DemoController( Chef theChef) {
         myChef = theChef;
     }
 }
