@@ -12,4 +12,9 @@ public class TurkishChef implements Chef {
         return "prepara un kebab cu carne de miel, servit cu pilaf de orez si iaurt.";
     }
 
+    @Override
+    public String arataNumeleRestaurantului() {
+        return "Nume Restaurant Turcesc";
+    }
+
 }

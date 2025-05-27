@@ -8,4 +8,9 @@ public class MexicanChef implements Chef {
     public String getDailyRecipe() {
         return "Prepara tacos al pastor con pina, cilangtro y salsa ...";
     }
+
+    @Override
+    public String arataNumeleRestaurantului() {
+        return "Nume Restaurant Mexican";
+    }
 }
