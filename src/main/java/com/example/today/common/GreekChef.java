@@ -4,32 +4,30 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-public class FrenchChef implements Chef {
-
+@Primary
+public class GreekChef implements Chef {
     @Override
     public String getDailyRecipe() {
-        return "Preparez un boeuf bourgignon aved des legumes ./.. ";
+        return "";
     }
 
     @Override
     public String arataNumeleRestaurantului() {
-        return "Nume Restaurant Francez";
+        return "";
     }
 
     @Override
     public String getChefName() {
-        return "bla bal bla en franacais ";
+        return "";
     }
 
     @Override
     public double getSalary() {
-        return 1000;
+        return 0;
     }
 
     @Override
     public String getMenuOfTheDay() {
-        return "";
+        return "Meniul zilei grecesc.";
     }
-
-
 }

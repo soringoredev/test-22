@@ -21,4 +21,14 @@ public class TurkishChef implements Chef {
         return "Ibrahim";
     }
 
+    @Override
+    public double getSalary() {
+        return 3000;
+    }
+
+    @Override
+    public String getMenuOfTheDay() {
+        return "";
+    }
+
 }

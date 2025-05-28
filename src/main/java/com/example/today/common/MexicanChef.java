@@ -4,8 +4,9 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
+
 public class MexicanChef implements Chef {
+
     @Override
     public String getDailyRecipe() {
         return "Prepara tacos al pastor con pina, cilangtro y salsa ...";
@@ -18,6 +19,16 @@ public class MexicanChef implements Chef {
 
     @Override
     public String getChefName() {
+        return "Pablo";
+    }
+
+    @Override
+    public double getSalary() {
+        return 3000;
+    }
+
+    @Override
+    public String getMenuOfTheDay() {
         return "";
     }
 }

@@ -25,16 +25,24 @@ public class DemoController {
 
     @GetMapping("/abcd")
     public String cName() {
-
         return myChef.getChefName();
+    }
 
+    @GetMapping("/salary")
+    public double getSalary() {
+        return myChef.getSalary();
+    }
+
+    @GetMapping("/menu")
+    public String getMenu() {
+        return myChef.getMenuOfTheDay();
     }
 
     private Chef myChef;
 
     //Constructor
     @Autowired
-    public DemoController( Chef theChef) {
+    public DemoController(Chef theChef) {
         myChef = theChef;
     }
 }

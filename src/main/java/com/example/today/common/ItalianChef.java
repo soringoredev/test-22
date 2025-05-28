@@ -23,4 +23,14 @@ public class ItalianChef implements Chef {
         return "";
     }
 
+    @Override
+    public double getSalary() {
+        return 2000;
+    }
+
+    @Override
+    public String getMenuOfTheDay() {
+        return "";
+    }
+
 }

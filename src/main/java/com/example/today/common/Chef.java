@@ -10,4 +10,8 @@ public interface Chef {
 
     String getChefName();
 
+    double getSalary();
+
+    String getMenuOfTheDay();
+
 }
